@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Single Page Website</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand"><img src="img/logo1.png" alt="" srcset=""> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex">
+          <a href="login.html" class="btn btn-outline-light">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+<!-- Home Section -->
+<section id="home" class="hero d-flex align-items-center justify-content-center text-center text-white">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Welcome to Teachpulse</h1>
+    <p ><i>Where Every Opinion Shapes Better Teaching.</i></p>
+    <a href="#contact" class="btn btn-light btn-lg mt-3">Get in Touch</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 ">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side Content -->
+      <div class="col-md-6 text-start">
+        <h2 class="mb-4">About Us</h2>
+        <p>Our Teacher Feedback System is designed to create a transparent and efficient way for students to share
+          their classroom experience, helping institutions improve teaching quality and student satisfaction.</p>
+        <p>By collecting constructive feedback, we empower teachers to reflect on their teaching methods and continuously
+          enhance their performance. The platform also assists administrators in monitoring educational standards across departments.</p>
+          <ul >
+          <li> Easy and secure online feedback process</li>
+          <li> Data-driven reports for continuous improvement</li>
+          <li> Promotes accountability and quality education</li>
+        </ul>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="col-md-6">
+        <div class="about-img">
+          <div class="overlay"></div>
+          <img src="img/john-2FPjlAyMQTA-unsplash.jpg" 
+               alt="About Image" class="img-fluid rounded" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="services" class="py-5">
+  <div class="container">
+    <h1 class="mb-4 text-center">Our Services</h1>
+    <div class="row g-4">
+      
+      <!-- Service 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="img/service1.jpg" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Feedback Collection</h5>
+            <p class="card-text text-muted">
+              We provide a simple and secure platform for students to share valuable feedback 
+              about teachers and classroom experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="img/service2.jpg" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Performance Analysis</h5>
+            <p class="card-text text-muted">
+              Our system analyzes feedback data to help teachers and administrators 
+              identify strengths and areas for improvement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="img/service3.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Reports & Insights</h5>
+            <p class="card-text text-muted">
+              Get clear, visualized reports that help in making informed decisions 
+              for quality education enhancement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contact Us</h2>
+      <form class="col-md-6 mx-auto">
+        <input type="text" class="form-control mb-3" placeholder="Name" required />
+        <input type="email" class="form-control mb-3" placeholder="Email" required />
+        <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+        <button class="btn btn-primary w-100">Send</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+ <footer class="footer-custom text-center py-3">
+  <small>&copy; 2025 Teachpulse. All rights reserved.</small>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
